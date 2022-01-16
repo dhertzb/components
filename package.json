@@ -7,13 +7,11 @@
   },
   "author": "dhertzb",
   "repository":{
+    "type":"git",
     "url":"git://github.com/dhertzb/components.git"
   },  
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "files": [
     "dist"
   ],
